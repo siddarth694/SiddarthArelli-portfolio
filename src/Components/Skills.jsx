@@ -22,7 +22,7 @@ const Skills = () => {
   };
 
   const handleViewResume = () => {
-    window.open("/SiddarthArelliResume.pdf", "_blank");
+    window.open(`${import.meta.env.BASE_URL}SiddarthArelliResume.pdf`, "_blank");
   };
 
   return (

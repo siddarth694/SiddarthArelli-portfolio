@@ -5,7 +5,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 // demo videos
 const EMS_DEMO_URL = "https://drive.google.com/file/d/1D4D43inIkl2tzCLqRYLW5xLTCAe0iuxy/view";
-let MoonMart="https://drive.google.com/file/d/1bkvUz4m-gmY3UOoL1TaQUB_L3aaWUbpp/preview"
+let MoonMart="https://drive.google.com/file/d/1bkvUz4m-gmY3UOoL1TaQUB_L3aaWUbpp/view"
 
 
 
