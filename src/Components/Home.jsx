@@ -56,7 +56,7 @@ const Home = () => {
           {/* ICON LINKS */}
           <div className="flex gap-4 mb-4">
             <a
-              href="https://github.com/"
+              href="https://share.google/ZsjH6tzVR4xplPc6J"
               target="_blank"
               rel="noreferrer"
               className={`text-[31.68px] transition-colors duration-200 ${
@@ -69,7 +69,7 @@ const Home = () => {
             </a>
 
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/siddarthagoud-arelli-169a922b8"
               target="_blank"
               rel="noreferrer"
               className={`text-[31.68px] transition-colors duration-200 ${

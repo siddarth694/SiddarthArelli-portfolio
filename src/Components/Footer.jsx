@@ -6,9 +6,7 @@ const Footer = () => {
   const { theme } = useContext(MyContext);
 
   // 🔁 UPDATE THESE IF NEEDED
-  const EMAIL = "yourmail@gmail.com";
-  const LINKEDIN = "https://linkedin.com/in/your-profile";
-  const GITHUB = "https://github.com/your-username";
+
 
   return (
     <footer
@@ -34,14 +32,14 @@ const Footer = () => {
         {/* CENTER — ICONS */}
         <div className="flex gap-6">
           <a
-            href={`mailto:${EMAIL}`}
+            href={`mailto:${"siddudev19@gmail.com"}`}
             className="text-[18px] hover:text-sky-400 transition"
           >
             <FaEnvelope />
           </a>
 
           <a
-            href={LINKEDIN}
+            href="https://www.linkedin.com/in/siddarthagoud-arelli-169a922b8"
             target="_blank"
             rel="noreferrer"
             className="text-[18px] hover:text-sky-400 transition"
@@ -50,7 +48,7 @@ const Footer = () => {
           </a>
 
           <a
-            href={GITHUB}
+            href="https://share.google/ZsjH6tzVR4xplPc6J"
             target="_blank"
             rel="noreferrer"
             className="text-[18px] hover:text-sky-400 transition"
