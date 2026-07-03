@@ -34,12 +34,13 @@ const Footer = () => {
         {/* CENTER — ICONS */}
         <div className="flex gap-6">
           <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=siddudev19@gmail.com"
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${EMAIL}`}
   target="_blank"
-  rel="noreferrer"
-  className="text-[18px] hover:text-sky-400 transition"
+  rel="noopener noreferrer"
+     className="text-[18px] hover:text-sky-400 transition"
 >
-  <FaEnvelope />
+  <FaEnvelope size={20} />
+  
 </a>
 
           <a
