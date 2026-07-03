@@ -6,9 +6,9 @@ const Footer = () => {
   const { theme } = useContext(MyContext);
 
   // 🔁 UPDATE THESE IF NEEDED
-  const EMAIL = "yourmail@gmail.com";
-  const LINKEDIN = "https://linkedin.com/in/your-profile";
-  const GITHUB = "https://github.com/your-username";
+  const EMAIL = "siddudev19@gmail.com";
+  const LINKEDIN = "https://www.linkedin.com/in/siddartha-arelli-169a922b8?utm_source=share_via&utm_content=profile&utm_medium=member_android";
+  const GITHUB = "https://github.com/siddarth694";
 
   return (
     <footer
@@ -34,11 +34,13 @@ const Footer = () => {
         {/* CENTER — ICONS */}
         <div className="flex gap-6">
           <a
-            href={`mailto:${EMAIL}`}
-            className="text-[18px] hover:text-sky-400 transition"
-          >
-            <FaEnvelope />
-          </a>
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=siddudev19@gmail.com"
+  target="_blank"
+  rel="noreferrer"
+  className="text-[18px] hover:text-sky-400 transition"
+>
+  <FaEnvelope />
+</a>
 
           <a
             href={LINKEDIN}

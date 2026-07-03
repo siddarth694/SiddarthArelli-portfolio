@@ -11,7 +11,7 @@ const Contact = () => {
 
   // 🔁 UPDATE THESE
   const EMAIL = "siddudev19@gmail.com";
-  const LINKEDIN = "https://www.linkedin.com/in/siddarthagoud-arelli-169a922b8";
+  const LINKEDIN = "https://www.linkedin.com/in/siddartha-arelli-169a922b8?utm_source=share_via&utm_content=profile&utm_medium=member_android";
   const GITHUB = "https://share.google/ZsjH6tzVR4xplPc6J";
 
   const sendEmail = (e) => {
@@ -70,13 +70,15 @@ const Contact = () => {
           <div className="mt-8 flex flex-col gap-5">
 
             {/* EMAIL */}
-            <a
-              href={`mailto:${EMAIL}`}
-              className="flex items-center gap-4 text-[16px] hover:text-sky-400 transition"
-            >
-              <FaEnvelope size={20} />
-              {EMAIL}
-            </a>
+          <a
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${EMAIL}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-4 text-[16px] hover:text-sky-400 transition"
+>
+  <FaEnvelope size={20} />
+  {EMAIL}
+</a>
 
             {/* LINKEDIN */}
             <a
